@@ -1,0 +1,10 @@
+
+.about-container {
+    padding: 0 50px;
+}
+.about-menu-block{
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+}
+
