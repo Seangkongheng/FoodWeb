@@ -26,3 +26,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+.card:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    background-color: rgb(219, 255, 202);
+}
+.card{
+    transition: 0.2s ease-in-out;
+}

@@ -1,10 +1,96 @@
 
 .about-container {
     padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
 }
 .about-menu-block{
     display: flex;
     justify-content: center;
     height: 100vh; 
 }
+.about-main-card{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    background-color: red;
+}
+.about-main-card-image-rigth {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.about-main-card-image-rigth img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.about-main-card-left{
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+}
 
+.discound{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+}
+.about-main-content{
+    display: flex;
+    gap: 1rem;
+}
+.about-image-card-center{
+    width: 300px;
+    height: 300px;
+}
+.image-overlay{
+    width: 200px;
+    height: 300px;
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-main-card-image-left{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.about-main-card-image-left img{
+    width: 100%;
+    height: 100%;
+}
+.about-image-card-center-sub{
+    width: 100%;
+    height: 47%;
+    background-color: red;
+}
+.about-image-card-center-image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.about-image-card-center-image img{
+    width: 100%;
+    height: 100%;
+    
+}
